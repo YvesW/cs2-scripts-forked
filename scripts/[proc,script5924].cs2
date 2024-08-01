@@ -102,6 +102,8 @@ switch_struct ($struct0) {
 		cc_setonvartransmit("buff_bar_transmit_value($struct0){var102}");
 	case buff_time_till_next_venom_hit_3741 :
 		cc_setonvartransmit("buff_bar_transmit_value($struct0){var102}");
+	case buff_burn_damage_accumulated_989 :
+		cc_setonvartransmit("buff_bar_transmit_value($struct0){var4122}");
 	case buff_desert_heat_timer_3763 :
 		cc_setonvartransmit("buff_bar_transmit_value($struct0){var3198}");
 	case buff_imprisoned_3765 :
@@ -218,4 +220,6 @@ switch_struct ($struct0) {
 		cc_setonvartransmit("buff_bar_transmit_value($struct0){var4243}");
 	case buff_smouldering_gland_blessing_966 :
 		cc_setonvartransmit("buff_bar_transmit_value($struct0){var4243}");
+	case buff_deadman_blighted_overload_977 :
+		cc_setonvartransmit("buff_bar_transmit_value($struct0){var4249}");
 }
